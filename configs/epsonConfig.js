@@ -24,7 +24,7 @@ module.exports = {
     PAPER_PART_CUT  : new Buffer([0x1d, 0x56, 0x01]), // Partial cut paper
 
     // Text format
-    TXT_NORMAL      : new Buffer([0x1b, 0x21, 0x00]), // Normal text
+    TXT_NORMAL      : new Buffer([0x1b, 0x21, 0x05]), // Normal text
     TXT_2HEIGHT     : new Buffer([0x1b, 0x21, 0x10]), // Double height text
     TXT_2WIDTH      : new Buffer([0x1b, 0x21, 0x20]), // Double width text
     TXT_4SQUARE     : new Buffer([0x1b, 0x21, 0x30]), // Quad area text
